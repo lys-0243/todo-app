@@ -1,31 +1,28 @@
 .form {
-    display: flex;
-    column-gap: 12px;
-    
-  }
+  display: flex;
+  column-gap: 12px;
+}
 
-  .input_form {
-    flex: 1;
-    padding: 12px;
-    border: 0.5px solid rgb(172, 172, 172);
-    border-radius: 4px;
-    height: 35px;
-    color: rgb(88, 88, 88);
-    width: 100%;
-  }
-  
-  .form__button {
-    border: 0;
-    border-radius: 6px;
-    padding: 0 12px;
-    background: var(--secondary);
-  }
-  
-  .form__button:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-  }
-  
-  .form__button svg {
-    margin-right: 6px;
-  }
+.input_form {
+  flex: 1;
+  padding: 12px;
+  border: 0.5px solid rgb(172, 172, 172);
+  height: 35px;
+  color: rgb(88, 88, 88);
+  width: 100%;
+}
+
+.form__button {
+  border: 0;
+  padding: 0 12px;
+  background: var(--secondary);
+}
+
+.form__button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form__button svg {
+  margin-right: 6px;
+}

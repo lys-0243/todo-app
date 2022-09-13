@@ -25,7 +25,7 @@
 
 .hrLine{
     margin: 10px;
-    background-color: white;
+    border-top: 1px solid rgba(87, 53, 184, 0.3);
 }
 .content h1 {
   font-size: 60px;
@@ -40,10 +40,10 @@
 }
 
 .footer h6 {
-  font-weight: 400;
-  font-size: 18px;
-  padding: 12px;
-  border-radius: 4px;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 8px;
+  width: 100%;
   background: var(--background-light);
 }
 
@@ -51,7 +51,6 @@
   font-weight: 600;
   margin-left: 4px;
   padding: 2px 4px;
-  border-radius: 2px;
   background: var(--secondary);
 }
 
@@ -60,9 +59,16 @@
     flex-direction: row;
     align-items:center;
     justify-content: center;
-    font-size: 23px;
 }
 
 .titleHead img {
     width: 3vw;
+}
+
+.sub_container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 40px;
+  width: 50vw;
+  background-color: white;
 }
